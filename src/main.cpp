@@ -5,6 +5,9 @@
 
 #include <stdlib.h>
 
+// TEMPORARY UNTIL I KNOW IT WOKRS
+#include "token.cpp"
+
 // Reads the file into a string
 std::string open_file(char* input_file);
 
