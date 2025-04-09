@@ -11,6 +11,7 @@ set(CMAKE_CXX_STANDARD 23)
 # add_definitions(${LLVM_DEFINITIONS})
 
 add_executable(gearlang main.cpp)
+target_include_directories(gearlang PRIVATE inc)
 # llvm_map_components_to_libnames(llvm_libs suuport core irreader orcjit native)
 
 target_link_libraries(gearlang)
